@@ -25,7 +25,7 @@ $ git clone https://kernel.googlesource.com/pub/scm/linux/kernel/git/cjb/mmc-uti
 ```
 $ cp -Rf /git/folder/path /corresponding/folder/path
 ```
-3. Use the Make command to compile the source code.
+3. Use the Make command to compile the updated source code.
 ```
 $ make
 ```

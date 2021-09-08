@@ -22,7 +22,9 @@ Usage
 $ git clone https://kernel.googlesource.com/pub/scm/linux/kernel/git/cjb/mmc-utils-old
 ```
 2. Update the files in [folder](https://github.com/WBJisMyName/READMETest/tree/main/mmc-utils-old) to the corresponding files.
-
+```
+$ cp -Rf /git/folder /corresponding/folder
+```
 3. Use the Make command to compile the source code.
 ```
 $ make

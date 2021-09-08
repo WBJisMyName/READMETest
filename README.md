@@ -12,7 +12,7 @@ The user can modify the open source code according to this document to realize t
 reading the SMART block, and analyze the SMART block through the fields defined in the product 
 data sheet to obtain SMART information. 
 
-Linux Environment Setup
+Usage
 -------------------------
 
 - Download mmc-utils package and modify it to support SMART DUMP function. Please download the source code and modify it step by step.
@@ -29,10 +29,7 @@ $ make
 ```
 $ ./mmc –h
 ```
-
-Usage
--------------------------
-Update the files in [folder](https://github.com/WBJisMyName/READMETest/tree/main/mmc-utils-old) to the corresponding file.
+4. Update the files in [folder](https://github.com/WBJisMyName/READMETest/tree/main/mmc-utils-old) to the corresponding file.
 
 
 Command Execution

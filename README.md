@@ -32,7 +32,7 @@ $ ./mmc –h
 
 Usage
 -------------------------
-Update the files in [folder!](https://github.com/WBJisMyName/READMETest/tree/main/mmc-utils-old) to the corresponding file.
+Update the files in [folder](https://github.com/WBJisMyName/READMETest/tree/main/mmc-utils-old) to the corresponding file.
 
 
 Command Execution

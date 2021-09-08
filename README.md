@@ -21,16 +21,28 @@ Usage
 ```
 $ git clone https://kernel.googlesource.com/pub/scm/linux/kernel/git/cjb/mmc-utils-old
 ```
-2. Use the Make command to compile the source code.
+2. Update the files in [folder](https://github.com/WBJisMyName/READMETest/tree/main/mmc-utils-old) to the corresponding files.
+
+3. Use the Make command to compile the source code.
 ```
 $ make
 ```
-3. After build success, check the availability of the mmc tool by -h
+4. After build success, check the availability of the mmc tool by -h
 ```
 $ ./mmc –h
+``` 
+5. Get SMART buffer by typing following command.
 ```
-4. Update the files in [folder](https://github.com/WBJisMyName/READMETest/tree/main/mmc-utils-old) to the corresponding file.
-
+$ ./mmc smtbuffer pathofmmcblk
+``` 
+6. Get SMART information by typing following command.
+```
+$ ./mmc smart pathofmmcblk
+``` 
+7. Get Card life by typing following command.
+```
+$ ./mmc health pathofmmcblk
+``` 
 
 Command Execution
 -------------------------

@@ -1,5 +1,5 @@
 # Linux- SD Card SMART Query
-Get S.M.A.R.T Information for Transcend microSDHC/SDXC430T and microSDXC450I.
+Get S.M.A.R.T Information for Transcend microSDXC430T and microSDXC450I.
 
 -------------------------
 The various statuses of SD and MicroSD products are located in the SMART block of the device. 

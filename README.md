@@ -34,15 +34,15 @@ Usage
 -------------------------
 Add code into corresponding file.
 
-Command Execute
+Command Execution
 -------------------------
-1.To dump SMART raw data</br></br>
+1. To dump SMART raw data</br></br>
 ![Buffer](https://github.com/WBJisMyName/READMETest/blob/main/smtbuffer.png)
 
-2.To show SMART info</br></br>
+2. To show SMART info</br></br>
 ![SMART](https://github.com/WBJisMyName/READMETest/blob/main/smart.png)
 
-3.To show card life(Heath)</br></br>
+3. To show card life(Heath)</br></br>
 ![Heath](https://github.com/WBJisMyName/READMETest/blob/main/health.png)
 
 

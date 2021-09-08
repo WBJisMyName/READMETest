@@ -33,15 +33,15 @@ $ make
 ```
 $ ./mmc –h
 ``` 
-5. Get SMART buffer by typing following command.
+5. Get SMART buffer by following command.
 ```
 $ ./mmc smtbuffer pathofmmcblk
 ``` 
-6. Get SMART information by typing following command.
+6. Get SMART information by following command.
 ```
 $ ./mmc smart pathofmmcblk
 ``` 
-7. Get Card life by typing following command.
+7. Get Card life by following command.
 ```
 $ ./mmc health pathofmmcblk
 ``` 

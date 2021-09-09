@@ -10,7 +10,7 @@ SMART command in Raspberry Pi.
 
 Hardware requirements
 -------------------------
-* Raspberry Pi 3 Model B+
+* Raspberry Pi 3 Model B+ with Micro SD port
 * Transcend SDXC430T and SDXC450I
 
 Usage

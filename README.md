@@ -21,7 +21,7 @@ Usage
 ```
 $ git clone https://kernel.googlesource.com/pub/scm/linux/kernel/git/cjb/mmc-utils-old
 ```
-   or
+</t>or
 ```
 $ git clone https://kernel.googlesource.com/pub/scm/linux/kernel/git/cjb/
 ```

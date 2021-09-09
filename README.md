@@ -12,9 +12,10 @@ The user can modify the open source code according to this document to realize t
 reading the SMART block, and analyze the SMART block through the fields defined in the product 
 data sheet to obtain SMART information. 
 
-Device
+Hardware requirements
 -------------------------
-Only for Transcend SDXC430T and SDXC450I.
+* Raspberry Pi 3 Model B+
+* Transcend SDXC430T and SDXC450I
 
 Usage
 -------------------------
@@ -25,14 +26,9 @@ Usage
 ```
 $ git clone https://kernel.googlesource.com/pub/scm/linux/kernel/git/cjb/mmc-utils-old
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or
-```
-$ git clone https://kernel.googlesource.com/pub/scm/linux/kernel/git/cjb/
-```
+
 2. Update the files in [folder](https://github.com/WBJisMyName/READMETest/tree/main/mmc-utils-old) to the corresponding files.
-```
-$ cp -Rf /git/folder/* /corresponding/folder/path
-```
+
 3. Use the Make command to compile the updated source code.
 ```
 $ make
@@ -43,15 +39,15 @@ $ ./mmc –h
 ``` 
 5. Get SMART buffer by following command.
 ```
-$ ./mmc smtbuffer pathofmmcblk
+$ ./mmc smtbuffer /dev/mmcblk0
 ``` 
 6. Get SMART information by following command.
 ```
-$ ./mmc smart pathofmmcblk
+$ ./mmc smart /dev/mmcblk0
 ``` 
 7. Get Card life by following command.
 ```
-$ ./mmc health pathofmmcblk
+$ ./mmc health /dev/mmcblk0
 ``` 
 
 Command Execution

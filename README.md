@@ -1,4 +1,4 @@
-# Linux- SD Card SMART Query
+# Raspberry Pi- SD Card SMART Query
 Get S.M.A.R.T Information for Transcend SDXC430T and SDXC450I.
 
 -------------------------
@@ -6,11 +6,7 @@ The various statuses of SD and MicroSD products are located in the SMART block o
 By reading and analyzing the SMART block, you can grasp the product name, serial number, 
 firmware version, Erase count, health, etc. of the device, so as to monitor and find the device 
 early potential problems. This document provides a way to read and print SMART block to enable 
-SMART command in Linux®. 
-
-The user can modify the open source code according to this document to realize the function of 
-reading the SMART block, and analyze the SMART block through the fields defined in the product 
-data sheet to obtain SMART information. 
+SMART command in Raspberry Pi. 
 
 Hardware requirements
 -------------------------

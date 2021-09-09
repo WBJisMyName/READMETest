@@ -21,9 +21,13 @@ Usage
 ```
 $ git clone https://kernel.googlesource.com/pub/scm/linux/kernel/git/cjb/mmc-utils-old
 ```
+or
+```
+$ git clone https://kernel.googlesource.com/pub/scm/linux/kernel/git/cjb/
+```
 2. Update the files in [folder](https://github.com/WBJisMyName/READMETest/tree/main/mmc-utils-old) to the corresponding files.
 ```
-$ cp -Rf /git/folder/path /corresponding/folder/path
+$ cp -Rf /git/folder/* /corresponding/folder/path
 ```
 3. Use the Make command to compile the updated source code.
 ```
